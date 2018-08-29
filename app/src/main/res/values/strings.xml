@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Dictionary</string>
+    <string name="indonesian">Indonesian</string>
+    <string name="english">English</string>
+    <string name="indo">Indonesian</string>
+    <string name="eng">English</string>
+    <string name="query_hint_eng">Type Something…</string>
+    <string name="query_hint_indo">Ketik sesuatu…</string>
+</resources>

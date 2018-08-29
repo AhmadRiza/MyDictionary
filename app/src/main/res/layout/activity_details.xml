@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.details.DetailsActivity"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:paddingStart="@dimen/deep_padding"
+            android:paddingEnd="@dimen/deep_padding"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="Smile"
+                android:textColor="@android:color/white"
+                android:textSize="42sp"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:paddingStart="@dimen/deep_padding"
+        android:paddingEnd="@dimen/deep_padding"
+        android:paddingTop="@dimen/main_padding"
+        android:paddingBottom="@dimen/main_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            tools:text="kki. 1 (me)reda. The storm abated Angin ribut (me)reda. 2 mengurang, berkurang . The pain abated Sakitnya  mengurang. Perasaan sakit itu berkurang."
+            />
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>
